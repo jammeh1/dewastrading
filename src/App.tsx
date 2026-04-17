@@ -18,7 +18,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter basename="/dewastrading">   // ← Same name, NO trailing slash
+          <BrowserRouter basename="/dewastrading">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/admin" element={<Admin />} />
